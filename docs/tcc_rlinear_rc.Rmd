@@ -1,0 +1,23 @@
+---
+title: "TCC Regressão Linear"
+author: "Rodrigo G Cardoso"
+date: "4/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Introdução
+
+A base de dados `mtcars` foi extraída da revista "Motor Trend US" em 1974 e detalha o consumo de combustível para 32 veículos diferentes. Para estes veículos são anexadas 10 características diferentes que competam a base de dados. A descrição de cada variável é assim definida:
+
+```{r}
+
+dados <- as_tibble(mtcars)
+
+dados
+```
+
